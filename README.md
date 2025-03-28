@@ -69,7 +69,7 @@ streamlit run ui/app.py
 jupyter notebook
 ```
 
-- Open any notebook in the `notebooks/` folder
+- Open the notebook ```Building_Agentic_Apllication_Demo.ipynb```
 - Useful for experimenting or inspecting agent logic
 
 ---
