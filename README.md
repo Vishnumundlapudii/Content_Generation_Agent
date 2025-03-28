@@ -85,6 +85,6 @@ jupyter notebook
 ## 👨‍💻 Author
 
 **Vishnu Kumar Reddy**  
-[GitHub](https://github.com/Vishnumundlapudii) | [LinkedIn](https://www.linkedin.com/in/vishnukumar-reddy/)
+[GitHub](https://github.com/Vishnumundlapudii) | [LinkedIn](https://www.linkedin.com/in/vishnu-kumar-reddy-512552152/)
 
 ---
