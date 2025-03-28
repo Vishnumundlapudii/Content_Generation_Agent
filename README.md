@@ -65,10 +65,6 @@ streamlit run ui/app.py
 
 ### 🧪 Option 3: Debug or understand agents using Notebook
 
-```bash
-jupyter notebook
-```
-
 - Open the notebook ```Building_Agentic_Apllication_Demo.ipynb```
 - Useful for experimenting or inspecting agent logic
 
