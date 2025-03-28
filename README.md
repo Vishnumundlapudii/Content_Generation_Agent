@@ -1,83 +1,90 @@
+
 # 🧠 Content Generation Agent
 
-This repository contains an AI-powered content generation application with a backend built using **FastAPI (Uvicorn)**, a frontend built with **Streamlit**, and a **Jupyter Notebook** to demonstrate and debug the agent execution logic.
+An AI-powered application to generate content using LLM agents.  
+Built with **FastAPI** for the backend, **Streamlit** for the frontend, and **Jupyter Notebook** for debugging and experimentation.
 
-## 📁 Repository Structure
+---
 
-├── app/ # FastAPI backend ├── ui/ # Streamlit frontend ├── notebooks/ # Jupyter notebooks for debugging ├── requirements.txt └── README.md
+## 🧰 Tech Stack
 
+- 🔹 FastAPI + Uvicorn (Backend)
+- 🔹 Streamlit (Frontend)
+- 🔹 Jupyter Notebook (Agent Debugging)
+- 🔹 Python 3.8+
+
+---
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
+### 1. Clone the repo
 
 ```bash
 git clone https://github.com/Vishnumundlapudii/Content_Generation_Agent.git
 cd Content_Generation_Agent
-2. Create a Virtual Environment (Optional but Recommended)
-bash
-Copy
-Edit
+```
+
+### 2. Create & activate virtual environment (optional)
+
+```bash
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-3. Install Dependencies
-bash
-Copy
-Edit
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+### 3. Install dependencies
+
+```bash
 pip install -r requirements.txt
-⚙️ How to Run
-🔹 Option 1: Run Backend with Uvicorn
-This starts the FastAPI backend server.
+```
 
-bash
-Copy
-Edit
+---
+
+## ▶️ How to Run
+
+### 🖥️ Option 1: Run backend with FastAPI + Uvicorn
+
+```bash
 uvicorn app.main:app --reload
-Visit http://127.0.0.1:8000/docs for the interactive Swagger UI.
+```
 
-The --reload flag enables hot-reloading during development.
+- Access docs at: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+- Ideal for backend debugging and testing APIs
 
-Ideal for debugging API routes and backend logic.
+---
 
-🔹 Option 2: Run Frontend with Streamlit
-This launches the Streamlit-based user interface.
+### 🌐 Option 2: Run frontend with Streamlit
 
-bash
-Copy
-Edit
+```bash
 streamlit run ui/app.py
-Provides an interactive frontend for using the content generation agent.
+```
 
-Connects to the FastAPI backend for agent execution.
+- Interactive UI connected to backend
+- For user-friendly testing and content generation
 
-🧪 Agent Debugging & Exploration
-To understand how the agents are working internally:
+---
 
-Launch Jupyter:
+### 🧪 Option 3: Debug or understand agents using Notebook
 
-bash
-Copy
-Edit
+```bash
 jupyter notebook
-Navigate to notebooks/agent_flow_debug.ipynb (or the relevant notebook in the notebooks/ folder).
+```
 
-Explore the logic, steps, and outputs of the agent.
+- Open any notebook in the `notebooks/` folder
+- Useful for experimenting or inspecting agent logic
 
-✅ Best Practices
-You can run both Uvicorn and Streamlit at the same time for a complete experience.
+---
 
-Use the Jupyter notebook to debug, trace, and understand how the agent works under the hood.
+## 📝 Notes
 
-Modular architecture makes it easy to scale or extend.
+- You can run both `Uvicorn` and `Streamlit` in parallel.
+- Notebooks are provided for debugging or walkthroughs.
+- Modular architecture makes it easy to plug in new agents or models.
 
-💡 Future Additions (Suggestions)
-Add .env support for config and secrets
+---
 
-Add test cases for APIs and agent steps
+## 👨‍💻 Author
 
-Dockerize for container-based deployment
+**Vishnu Kumar Reddy**  
+[GitHub](https://github.com/Vishnumundlapudii) | [LinkedIn](https://www.linkedin.com/in/vishnukumar-reddy/)
 
-Add multi-agent orchestration (LangGraph or CrewAI)
-
-🧑‍💻 Author
-Vishnu Kumar Reddy
+---
