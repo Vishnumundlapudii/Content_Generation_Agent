@@ -55,7 +55,7 @@ uvicorn app.main:app --reload
 ### 🌐 Option 2: Run frontend with Streamlit
 
 ```bash
-streamlit run ui/app.py
+streamlit run streamlit_app.py
 ```
 
 - Interactive UI connected to backend
